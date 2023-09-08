@@ -1,0 +1,32 @@
+/* Navigation Responsiveness */
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:black;
+        top: 80px;
+        left: -100%;
+        text-align: left;
+        transition: all .5s;
+        z-index: 1;
+    }
+
+    nav ul li{
+        display: block;
+        line-height: 30px;
+    }
+
+    a:hover, a.active{
+        background: none;
+        color: gainsboro;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}

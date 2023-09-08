@@ -1,0 +1,35 @@
+@media screen and (max-width:500px){
+    .tDate{
+        grid-column: span 2;
+    }
+
+    .tTime{
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:325px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .username{
+        font-size: 1.5em;
+    }
+
+    .track{
+        font-size: 1.3em;
+    }
+
+    .tDate{
+        font-size: 15px;
+        grid-column: span 2;
+    }
+
+    .tTime{
+        font-size: 15px;
+        padding: 2px;
+        grid-column: span 2;
+    }
+}

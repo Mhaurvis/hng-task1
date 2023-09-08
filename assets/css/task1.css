@@ -1,0 +1,79 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:beige;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria;
+}
+
+.profile-wrapper{
+    width: 800px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.3em solid rgb(207, 201, 201);
+    line-height: 4em;
+}
+
+.username{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.track{
+    font-size: 1.5em;
+}
+
+ img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 0.3em solid rgb(207, 201, 201);
+}
+
+.time{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.currentDate{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 1em;
+    padding: 2px;
+    text-align: center;
+}
+
+.currentTime{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 1em;
+    padding: 2px 4px;
+    text-align: center;
+}
+
+.sourceCode a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: azure;
+    padding: 10px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 1em;
+}
